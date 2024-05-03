@@ -11,7 +11,7 @@ chrome_options.add_argument("headless")
 chrome_options.add_argument("no-sandbox")
 chrome_options.add_argument("disable-dev-shm-usage")
 
-# Update webdriver instance of chrome-driver with adding chrome options
+# Update webdriver instance of chrome-driver with adding chrome options.
 driver = webdriver.Chrome(options=chrome_options)
 # driver = webdriver.Chrome("/Users/home/Desktop/chromedriver")
 # Connect to the application
